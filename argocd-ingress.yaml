@@ -11,7 +11,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - http:
+    - host: argocd.sno2wman.net
+      http:
         paths:
           - path: /
             pathType: Prefix
