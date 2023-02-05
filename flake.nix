@@ -33,6 +33,7 @@
             alejandra
             yamlfmt.packages.${system}.yamlfmt
             argocd
+            kustomize
             jq
             httpie
           ];
