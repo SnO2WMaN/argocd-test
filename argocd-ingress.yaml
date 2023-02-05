@@ -20,8 +20,4 @@ spec:
               service:
                 name: argocd-server
                 port:
-                  number: 443
-# tls:
-#   - hosts:
-#       - argocd.example.net
-#     secretName: argocd-secret
+                  name: https
