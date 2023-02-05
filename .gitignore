@@ -5,3 +5,6 @@ result
 # VSCode
 .vscode/*
 !.vscode/extensions.json
+
+# Preview
+argocd.yaml
